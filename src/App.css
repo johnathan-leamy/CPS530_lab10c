@@ -1,9 +1,12 @@
 .headerDiv{
-  display: inline;
   font-size: 3em;
   color: white;
-  background-color: black;
+  background-color: rgb(44, 44, 44);
   width: 70%;
+  margin: auto;
+}
+.headerImg{
+  margin: auto;
 }
 
 /* .App {

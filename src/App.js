@@ -32,8 +32,8 @@ function App() {
 function CustomHeader(){
   return(
   <div>
-    <div className = "headerDiv">React in Vercel</div>
     <img className = "headerImg" src = {vercel} alt = "vercel image" width="30%"></img>
+    <div className = "headerDiv">React in Vercel</div>
   </div>
   );
 }
