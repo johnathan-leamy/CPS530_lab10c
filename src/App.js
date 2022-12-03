@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import vercel from './vercel.png';
 
 function App() {
   return (
@@ -30,7 +31,10 @@ function App() {
 }
 function CustomHeader(){
   return(
-  <div>React in Vercel</div>
+  <div>
+    <div className = "headerDiv">React in Vercel</div>
+    <img className = "headerImg" src = {vercel} alt = "vercel image" width="30%"></img>
+  </div>
   );
 }
 
