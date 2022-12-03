@@ -18,7 +18,7 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <customHeader/>
+      <CustomHeader/>
       <p>Since react is a very widely used front end framework it was very easy to find a web hosting service which supports react.</p>
       <p>When it comes to installing react that was also very easy as all it took was going to the react website then type the given commands into the terminal</p>
       <p>By using vercel the prosses of setting up the webpage involved upload the project to my personal github page then selecting it in the vercel website</p> 
@@ -28,10 +28,10 @@ function App() {
     </div>
   );
 }
-function customHeader(){
+function CustomHeader(){
   return(
   <div>React in Vercel</div>
-  )
+  );
 }
 
 export default App;
