@@ -2,13 +2,17 @@
   font-size: 3em;
   color: white;
   background-color: rgb(44, 44, 44);
-  width: 70%;
   margin: auto;
 }
 .headerImg{
   margin: auto;
 }
-
+.App-header {
+  background-color: #000000;
+}
+.App{
+  color: white;
+}
 /* .App {
   text-align: center;
 }
