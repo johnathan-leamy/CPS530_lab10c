@@ -7,11 +7,9 @@
 .headerImg{
   margin: auto;
 }
-.App-header {
-  background-color: #000000;
-}
 .App{
   color: white;
+  background-color: #000000;
 }
 /* .App {
   text-align: center;
